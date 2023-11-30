@@ -40,7 +40,7 @@ st.title("Analytics Maturity Level Prediction")
 
 # Model Accuracy in percentage with bold and large size
 st.sidebar.text(f'Model Accuracy: **{accuracy*100:.0f}%**')
-st.title("Maturity Level Prediction App")
+st.title("Select Variable")
 
 # Sliders for user input
 aht = st.slider("Average Handling Time (AHT)", min_value=data['AHT'].min(), max_value=data['AHT'].max())
