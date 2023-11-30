@@ -36,7 +36,7 @@ y_pred = clf.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 
 # Streamlit App
-st.title("Maturity Level Prediction App")
+st.title("Analytics Maturity Level Prediction")
 
 # Model Accuracy in percentage with bold and large size
 st.sidebar.text(f'Model Accuracy: **{accuracy*100:.0f}%**')
